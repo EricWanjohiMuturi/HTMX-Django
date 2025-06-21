@@ -18,6 +18,10 @@ Learn how to use HTMX with a Django Backend.
         - Not a big paradigm shift or set of new technologies
         - Works perfect with HTML
     -Keeps your tech stack focused.
+<<<<<<< HEAD
+=======
+
+>>>>>>> da67767b06ddeafe43e7974c06e11e70278597e7
 3. Extends the hypermedia interface to any HTML tag:
     - Dynamically replace content at any tag point based on events
     - Use HTML snippets from the server as inline replacements
