@@ -8,17 +8,27 @@ Learn how to use HTMX with a Django Backend.
     to control the UI and interactivity of an application.
     -It contains a set of Hypermedia controls like hyperlinks and forms
     -HTMX adds additional attributes to the regular HTML inorder to interact with the server, therefore making it a hypermedia control. 
-2. Extends the hypermedia interface to any HTML tag:
+
+2. HTMX Benefits
+    -Simplicity - no seperate frontend
+    - No need to create API for that separate frontend
+    - Maintian the benefits of backend frameworks like Django, Laravel, Rails
+    - Authentication, caching, from handling etc - all simpler, and can make use of utilities provided by those backend frameworks
+    - Easy to learn:
+        - Not a big paradigm shift or set of new technologies
+        - Works perfect with HTML
+    -Keeps your tech stack focused.
+3. Extends the hypermedia interface to any HTML tag:
     - Dynamically replace content at any tag point based on events
     - Use HTML snippets from the server as inline replacements
 
-3. HTMX & Django
+4. HTMX & Django
     - HTMX & Django fot very nicely together
     - htmx brings more dynamism to a page without needing heavier frameworks
     - Use the template engine to render parts of pages
     - Headers indicate when a view is involved by HTMX
 
-4. HTMX attributes
+5. HTMX attributes
     - hx-get = for search requests(HTTP GET)
     - hx-post = for form submission(HTTP POST)
     - hx-delete = for deleting items(HTTP DELETE)
